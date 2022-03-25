@@ -6,6 +6,7 @@
 #$ AUTHOR: Hydra
 #$ DESCRIPTION: Applies the OSD factory default OSD configuration.
 #$ DESCRIPTION: Assumes you have no OSD element configuration before applying.
+#$ FORCE_OPTIONS_REVIEW: TRUE
 
 # elements
 
@@ -23,6 +24,14 @@ set osd_altitude_pos = 2421
 set osd_debug_pos = 2464
 set osd_core_temp_pos = 2456
 
-# framerate max for NTSC is 60, PAL users could reduce this from 60 to 50
+#$ OPTION BEGIN (CHECKED): NTSC (60 Frames/s)
 
 set osd_framerate_hz = 60
+
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): PAL (50 Frames/s)
+
+set osd_framerate_hz = 50
+
+#$ OPTION END
