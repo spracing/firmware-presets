@@ -1,0 +1,20 @@
+#$ TITLE: SPRacing H7RF - VTX PIT switch via PinIO
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OSD
+#$ STATUS: OFFICIAL
+#$ KEYWORDS: vtx
+#$ AUTHOR: Hydra
+#$ DESCRIPTION: Enables VTX pit switch.
+#$ DESCRIPTION: Will erase any other PinIO configuration you have.
+#$ DESCRIPTION: Adjust the slider on the 'modes' tab after applying to match your AUX channel and switch position.
+
+#$ FORCE_OPTIONS_REVIEW: TRUE
+
+set pinio_box = 40,255,255,255
+
+#$ OPTION BEGIN (CHECKED): Enable on AUX2
+
+aux 0 40 1 1300 1700 0 0
+
+#$ OPTION END
+

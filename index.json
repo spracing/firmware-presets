@@ -143,13 +143,14 @@
     ],
     "keywords": [
       "defaults",
-      "osd"
+      "osd",
+      "vtx"
     ]
   },
   "presets": [
     {
       "fullPath": "presets/4.3/spracingh7rf/osd - factory defaults.txt",
-      "hash": "84b95783829ecd7cdc8948853deb979e508ba58842ab67337f879367fec24adc",
+      "hash": "11ab5db12d0ca49dadf6372af4a8e30b78afb03668632359980f23360f3d2a23",
       "title": "SPRacing H7RF - OSD - Factory defaults",
       "firmware_version": [
         "4.3"
@@ -161,6 +162,23 @@
         "defaults"
       ],
       "author": "Hydra",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/spracingh7rf/vtx pit switch.txt",
+      "hash": "e3202e5fff96d6b4ee5527fd264d9a09d60feaa34d93072750ad90f99df8aff4",
+      "title": "SPRacing H7RF - VTX PIT switch via PinIO",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OSD",
+      "status": "OFFICIAL",
+      "keywords": [
+        "vtx"
+      ],
+      "author": "Hydra",
+      "force_options_review": true,
       "priority": 0
     }
   ]
