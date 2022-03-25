@@ -132,10 +132,36 @@
     }
   },
   "uniqueValues": {
-    "firmware_version": [],
-    "category": [],
-    "author": [],
-    "keywords": []
+    "firmware_version": [
+      "4.3"
+    ],
+    "category": [
+      "OSD"
+    ],
+    "author": [
+      "Hydra"
+    ],
+    "keywords": [
+      "defaults",
+      "osd"
+    ]
   },
-  "presets": []
+  "presets": [
+    {
+      "fullPath": "presets/4.3/spracingh7rf/osd - factory defaults.txt",
+      "hash": "2840cdb27598d7088723f8e23744c473567d30dee2d450e3a10d8969de25ead2",
+      "title": "SPRacing H7RF - OSD - Factory defaults",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OSD",
+      "status": "OFFICIAL",
+      "keywords": [
+        "osd",
+        "defaults"
+      ],
+      "author": "Hydra",
+      "priority": 0
+    }
+  ]
 }
